@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!--encabezados o headings-->
+    <h1>soy un encabezado</h1>
+    <h2>encabezado 2</h2>
+    <h3>encabezado</h3>
+    <h4>encabezado</h4>
+    <h5>encabezado</h5>
+    <h6>encabezado</h6>
+    <!--parrafo-->
+    <p id="parrafoId">este es un parrafo</p>
+    <p>otro parrafo</p>
+    <!--br salto de linea-->
+    <p>si caminas solo llegas mas rapido<br>
+    si caminas acompañado llegas mas lejos </p>
+
+    <!--listas ordenadas (lo) y listas No ordenadas (ul)-->
+    <h3>lista ordenada</h3>
+    <ol>
+        <li>inicio</li>
+        <li>nosotros</li>
+        <li>contactenos</li>
+    </ol>
+        <h3>listas desordenadas</h3>
+    <ul>
+        <li>inicio</li>
+        <li>nosotros</li>
+        <li>contactenos</li>
+    </ul>
+        <!--divisiones div sirve para agrupar contenido, podemos crear secciones es una etiqueta contenedora-->
+        <div style="border: 5px outset blue">
+            <h1>soy una división</h1>
+        </div>
+
+        <!--section-->
+        <section>
+            <p>
+            soy la etiqueta section y defino secciones de un documento
+            </p>
+
+           
+        </section>
+        <!--header-->
+         <header>
+                <p>soy la parte superior de la pagina web, puedes asignarme un logo, un menu</p>
+        </header>
+
+<!--main-->
+<main>
+    <p>soy el contenido principal del cuerpo de la pagina o body</p>
+    
+</main>
+
+<!--article-->
+<article>
+    <p>puedeo agrupar contenido como parrafo, comentarios, imagenes
+        publicacion en el foro, entradas en un block
+    </p>
+</article>
+
+<!--aside-->
+<aside>
+    <p>representa el contenido segundario de la pagina. se asigna al lado derecho o izquierdo de la pagina</p>
+</aside>
+
+<!--footer-->
+<footer>
+    <p>este es el pie de pagina. se puede subir informacion del autor, datos de contacto</p>
+</footer>
+
+<!--a-->
+<a href="https://www.google.com/?hl=es">google</a>
+<p>permite realizar hipervinculos a otras paginas o elementos</p>
+ 
+<!--nav menu de navegacion-->
+<nav>
+    <a href="/html/">html</a>
+    <a href="/css">css</a>
+    <a href="JavaScript">JavaScript</a>
+</nav>
+
+<!--tablas definimos las cabecera de la tabla, las filas y las columnas-->
+<table>
+<thead><!--cabecera de la tabla-->
+<tr><!--fila de la cabecera--></tr>
+<th>nombre</th><!--columna-->
+<th>apellido</th>
+<th>telefono</th>
+</thead>
+<tbody><!--cuerpo de la tabla-->
+    <tr><!--fila-->
+        <td>Jenny</td>
+        <td>Montoya</td>
+        <td>555555</td>
+
+    </tr>
+
+    <tr>
+        <td>Alexandra</td>
+        <td>Cortes</td>
+        <td>88888</td>
+    </tr>
+
+</tbody>
+
+</table>
+
+<!--imagenes img-->
+<img src="imag/imagen Geek.jpg" title="paisaje" alt="imagen de paisaje">
+<img src="https://th.bing.com/th/id/OIP.qBftltpXBYhoni9dMSFNSwHaEo?w=264&h=180&c=7&o=5&pid=1.7" title="paisaje" alt="imagen de paisaje">
+
+<!--audio-->
+<audio src="multimedia/Alex Campos - Me Robastes El Corazon [alabanzasmp3.com].mp3" controls></audio>
+<audio controls>
+    <source src="multimedia/Alex Campos - Me Robastes El Corazon [alabanzasmp3.com].mp3" type="audio/mp3">
+</audio>
+<!--en el caso de videos se usa el mismo metodo pero con la etiqueta video-->
+<video src=""></video>
+
+<!--iframe inscrustar un documento dentro de este documento-->
+
+<iframe width="542" height="305" src="https://www.youtube.com/embed/RDXjlzdexpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--cursiva y negrita-->
+<p><strong>negrita</strong>
+    <p><b>negrita</b></p>
+
+<p><i>curvisa</i></p>
+<p><em>soy un parrafo en cursiva con end</em></p>
+<!--detail y summary-->
+<details>
+    <summary>algunos detalles</summary>
+    <p>mas informacion del detalle</p>
+</details>
+
+<!--selector clase-->
+<h2 class="ejemplo">soy h2</h2>
+<h2 class="ejemplo">soy h2</h2>
+<p class="ejemplo">soy ejemplo</p>
+<h2 id="ejemploId">soy h2</h2>
+
+<!--psudoclase como selector-->
+<a href="#" class= "text">pseudoclase como selector</a>
+
+<!--border-->
+<h1 id="e1">borde punteado circulos</h1>
+<h1 id="e2">borde punteado en linea</h1>
+<h1 id="e3">borde sólido</h1>
+<h1 id="e4">borde doble</h1>
+
+<!--block-->
+<p id="bloqueP">elemento en bloque</p>
+
+<!--linea-->
+<p id="linea1">elementos en linea</p>
+
+<!--anclaje interno-->
+<a href="#parrafoId">ejemplo anclaje interno</a>
+
+
+</body>
+</html>
