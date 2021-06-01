@@ -1,0 +1,85 @@
+/*selectores*/
+
+/*selector universal*/
+*{
+    color: blue;
+
+}
+
+/*selector etiqueta*/
+p{
+    color: green;
+}
+
+/*selector clase*/
+/*punto si es una clase*/
+.ejemplo{
+    color: hotpink;
+}
+/*selector id*/
+/*numeral si es un Id*/
+#ejemploId{
+    color: indigo;
+}
+
+/*selector de grupo o combinacion de selectores*/
+p,.ejemplo, #ejemploId{
+    font-size: 50px;
+}
+/*psudo clase como selector*/
+.text{
+    color: red;
+}
+
+.text:hover{
+    background-color: salmon;
+    color: white;
+}
+
+/*RECOMENDACIONES para consultar unidades de longitud absolutas y relativas
+otras pseudoclases visited, link, active
+cm= centimetros
+px=pixeles
+pc=picas
+in=pulgadas
+
+longitudes relativas
+
+1 em equivale a 16px
+%
+*/
+body{
+    background-image: url("/imag/fondo.jpg");
+    /*background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top ;*/
+}
+
+/*border*/
+#e1{
+    border: 5px dotted black
+}
+#e2{
+    border: 5px dashed black;
+}
+#e3{
+    border: 5px solid black;
+}
+#e4{
+    border: 5px double black;
+}
+/*elementos en bloque*/
+
+#bloqueP{
+    border: 5px solid black;
+    display: block;
+}
+/*elementos en linea*/
+#linea1{
+    border: 5px solid black;
+    display: inline;
+}
+
+

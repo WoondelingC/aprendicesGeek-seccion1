@@ -1,0 +1,132 @@
+Mentor AcademiaGeek11:26
+<!--video-->
+    <video src="multimedia/Gaticos.mp4" controls></video>
+
+    <!--iframe-->
+    <iframe width="950" height="534" src="https://www.youtube.com/embed/SRlpxa_xyCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <link rel="stylesheet" href="styles/style.css">
+Mentor AcademiaGeek11:27
+CSS SEELCTORES
+/*SELECTORES*/
+
+/*Selector universal*/
+*{
+    color:blue;
+}
+
+/*Selector etiqueta*/
+p{
+    color: green;
+}
+/*Selector clase*/
+/*punto si es una clase*/
+.ejemplo{
+    color: hotpink;
+}
+
+/*Selector id*/
+/*numeral si es un identificador único o id*/
+#ejemploId{
+ color: indigo;
+}
+Mentor AcademiaGeek11:29
+/*Selector de grupo o combinación de selectores*/
+p, .ejemplo, #ejemploId{
+    font-size: 50px;
+}
+Wanda Utrera11:41
+Los elementos pueden canhiar organizarlos de forma diferente
+?
+:(
+Think About11:41
+pexels
+https://www.pexels.com/es-es/
+gerald Castillo11:42
+Si se puede cambiar el orden Wanda
+Wanda Utrera11:43
+Gracias :)
+Mentor AcademiaGeek11:57
+Asistencia https://docs.google.com/forms/d/18CU78O4lti7b6Sx4i8dRaia8uLC89mZOvdvdRsgjo70/edit
+Mentor AcademiaGeek12:13
+_____________________
+Actividad
+Aplicando los temas vistos en clase, realizar una página sobre alguna de las siguientes recetas:
+1.	Bandeja Paisa
+2.	Fríjoles rancheros
+3.	Sancocho de gallina
+4.	Ajiaco
+5.	Espaguetis 
+6.	Pollo asado
+7.	Tamal
+Felix Rodriguez12:18
+yo no pude hacerla
+Felix Rodriguez12:26
+la configuracion
+de git bash
+Mentor AcademiaGeek12:26
+repositorio https://github.com/jennymontoya1001/aprendicessesion1.git
+Esteban Beltran Aguirre12:26
+yo profe
+Mentor AcademiaGeek12:28
+git config --global user.name "nomnre"
+Mentor AcademiaGeek12:30
+git config --global user.email "email"
+Mentor AcademiaGeek12:32
+git config --list
+Mentor AcademiaGeek12:33
+git init
+Mentor AcademiaGeek12:35
+git commit -m "mensaje"
+Mentor AcademiaGeek12:37
+git push origin master
+Mentor AcademiaGeek12:44
+git config --list
+Mentor AcademiaGeek12:47
+git commit -m "mensaje"
+Mentor AcademiaGeek12:49
+git push origin master
+Andrea Ortega12:51
+Yo profe
+paul ponce12:51
+No, no he podido profe
+Mentor AcademiaGeek12:53
+git config --global user.name "nomnre"
+git config --global user.email "email"
+Mentor AcademiaGeek12:58
+desktop
+Felix Rodriguez13:02
+mañana entregamos el primer reto?
+si señora gracias
+y la pagina que estamo haciendo hoy?
+a ok
+Felix Rodriguez13:03
+muchas gracias
+Isaac13:04
+Profe ¿mañana en este mismo link?
+Mentor AcademiaGeek13:04
+git commit -m "mensaje"
+Isaac13:04
+Vale profe, gracias.
+Wanda Utrera13:05
+Si le puedo compartir pantalla profe para mostrarle el ejercicio para q me explique porque me arroja error el ejercicio.
+muchas gracias profe
+Wanda Utrera13:05
+Si excelente profe
+Yo espero
+Mentor AcademiaGeek13:07
+git push origin master
+gerald Castillo13:10
+Muchas gracias profesora. Buenas tardes a todos.
+Andrea Ortega13:13
+Muchas gracias Profe! Feliz tarde para todos :) 
+Isaac13:14
+Tengan buena tarde todos. Nos vemos mañana. :)
+Wanda Utrera13:16
+si desea
+yo espero
+:)
+jajaj
+Wanda Utrera13:24
+voy profe
+Mentor AcademiaGeek13:28
+https://forms.gle/cavcmJGYAZfJtobU8
